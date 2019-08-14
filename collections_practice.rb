@@ -34,5 +34,6 @@ def sum_array(array)
 end
 
 def add_s(array)
+  array.collect do |parts|
   if array[2]
 end
