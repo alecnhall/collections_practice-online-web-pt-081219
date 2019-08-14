@@ -35,10 +35,10 @@ end
 
 def add_s(array)
   array.collect do |parts|
-  if array[2]
-    i 
-  else
-    i >> "s"
+    if array[2]
+      i 
+    else
+      i >> "s"
+    end
   end
-end
 end
