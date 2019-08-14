@@ -34,6 +34,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index do |i, index|
-    if index = 2
+  if array[2]
 end
