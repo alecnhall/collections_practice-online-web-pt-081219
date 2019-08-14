@@ -26,6 +26,7 @@ def find_a
 end
 
 def sum_array(array)
+  sum = 0
   array.each { |i| sum += i }
 end
 
