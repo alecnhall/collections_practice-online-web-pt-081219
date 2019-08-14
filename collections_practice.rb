@@ -28,6 +28,7 @@ end
 def sum_array(array)
   sum = 0
   array.collect { |i| i += sum }
+  return sum
 end
 
 def add_s
