@@ -31,6 +31,7 @@ def find_a(array)
       new_array.push(i)
     end
   end
+  return new_array
 end
 
 def sum_array(array)
