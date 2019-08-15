@@ -29,8 +29,6 @@ def find_a(array)
   array.each do |i|
     if i.start_with?("a")
       new_array.push(i)
-    else 
-      i 
     end
     new_array
   end
