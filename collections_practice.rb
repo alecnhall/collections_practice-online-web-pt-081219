@@ -33,6 +33,7 @@ def find_a(array)
       i 
     end
     new_array
+  end
 end
 
 def sum_array(array)
