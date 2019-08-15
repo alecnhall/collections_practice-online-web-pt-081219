@@ -25,12 +25,10 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  new_array = []
   array.each do |i|
     if i.start_with?("a")
       return i 
     end
-    new_array
   end
 end
 
