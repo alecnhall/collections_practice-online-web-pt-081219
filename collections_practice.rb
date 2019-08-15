@@ -32,6 +32,7 @@ def find_a(array)
     else 
       i 
     end
+    new_array
 end
 
 def sum_array(array)
