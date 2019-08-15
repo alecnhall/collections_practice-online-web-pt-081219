@@ -28,7 +28,7 @@ def find_a(array)
   new_array = []
   array.each do |i|
     if i.start_with?("a")
-      new_array.push(i)
+      return i 
     end
     new_array
   end
