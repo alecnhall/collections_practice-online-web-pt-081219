@@ -30,8 +30,8 @@ def find_a(array)
     if i.start_with?("a")
       new_array(i)
     else 
-      i
-    
+      i 
+    end
 end
 
 def sum_array(array)
